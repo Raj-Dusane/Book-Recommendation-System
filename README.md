@@ -49,6 +49,7 @@ To set up the project locally, follow these steps:
 3. **Create and Navigate to the Project Directory:**
 
     ```bash
+    cd virtual_env
     mkdir book-recommendation-system
     cd book-recommendation-system
     ```
