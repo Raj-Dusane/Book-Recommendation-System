@@ -31,12 +31,12 @@
 
 <body style="background-color: black;">
     <nav class="navbar" style="background-color:#00a65a">
-        <a style="margin-left: 7.5%" class="navbar-brand" href="">Recommend book</a>
+        <a style="margin-left: 7.5%; color: azure;" class="navbar-brand">Recommend book</a>
 
         <ul class="nav-list">
             <li><a href="/">Home</a></li>
-            <li><a href="recommend">Recommend</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="/recommend">Recommend</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -51,6 +51,7 @@
             </div>
 
             {% if data %}
+                <!-- {% print(data) %} -->
                 {% for i in data %}
                     <div class="col-3" style="margin-top: 30px">
                         <div class="card" style="width: 250px">
