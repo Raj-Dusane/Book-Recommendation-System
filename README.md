@@ -74,11 +74,11 @@ To set up the project locally, follow these steps:
 
 ### Project File Structure
 
-- **`dataset/`:** Directory contaning raw dataset.
+- **`/dataset`:** Directory contaning raw dataset.
 
-- **`webapp/`:** Directory structure for web app.
+- **`/webapp`:** Directory structure for web app.
 
-    - **`models/`:**  Directory for serialized recommendation model.
+    - **`/models`:**  Directory for serialized recommendation model.
     
         **Serialized models:**
         1) **`books.pkl`**: Contains a DataFrame with book details.
@@ -86,7 +86,7 @@ To set up the project locally, follow these steps:
         3) **`pt.pkl`**: Holds the pivot table mapping books to user ratings.
         4) **`similarity_score.pkl`**: Stores the similarity scores between books.
 
-    - **`templates/`:** Standard directory for HTML templates used by Flask.
+    - **`/templates`:** Standard directory for HTML templates used by Flask.
 
       - **`index.html`:** Main page.
       - **`recommend.html`:** Renders the recommendations based on user search input.
