@@ -63,8 +63,8 @@ def recommend():
             item.extend(list(temp_df.drop_duplicates('Book-Title')['Image-URL-M'].values))
             data.append(item)
 
-        # passing data as a prop to template
-        return render_template('recommend.html', data=data)
+            # passing data as a prop to template
+            return render_template('recommend.html', data=data)
 
     except:
         return render_template('recommend.html', data=0)
